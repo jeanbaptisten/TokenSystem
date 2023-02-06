@@ -1,0 +1,36 @@
+#   Main config file generated for TokenSystem plugin.
+
+# TODO : Mettre des annotations parce que c'est propre walla
+
+mysql:
+  # Database server host.
+  host: localhost:3306
+
+  # Database name, username and password.
+  database: 'user'
+  username: ''
+  password: ''
+
+noPerm: "&7[&6Token&cSystem&7] &cTu n'as pas la permission !"
+helpCmd: "&7[&6Token&cSystem&7] &cErreur lors de l'utilisation de la commande."
+notInteger: "&7[&6Token&cSystem&7] &c%arg% n'est pas un integer !"
+negativeInteger: "&7[&6Token&cSystem&7] &c%arg% est négatif !"
+unknownPlayer: "&7[&6Token&cSystem&7] &cLe joueur %player% est inconnu."
+
+playerNegativeTokens: "&7[&6Token&cSystem&7] &c%player% n'a pas assez de tokens !"
+senderNegativeTokens: "&7[&6Token&cSystem&7] &cVous n'avez pas assez de tokens !"
+
+errorAddToken: "&7[&6Token&cSystem&7] &cUne erreur est arrivée lors de l'execution de la commande ! Vérifiez la console."
+errorRemoveToken: "&7[&6Token&cSystem&7] &cUne erreur est arrivée lors de l'execution de la commande ! Vérifiez la console."
+errorSetToken: "&7[&6Token&cSystem&7] &cUne erreur est arrivée lors de l'execution de la commande ! Vérifiez la console."
+
+playerTokenAdded: "&7[&6Token&cSystem&7] &aVous avez gagné %tokens% tokens !"
+playerTokenRemoved: "&7[&6Token&cSystem&7] &aVous avez perdu %tokens% !"
+playerTokenSet: "&7[&6Token&cSystem&7] &aVous avez maintenant %tokens% tokens."
+
+tokenAdded: "&7[&6Token&cSystem&7] &aVous avez ajouté %tokens% tokens au joueur %player% !"
+tokenRemoved: "&7[&6Token&cSystem&7] &aVous avez enlevé %tokens% tokens au joueur %player% !"
+tokenGet: "&7[&6Token&cSystem&7] &aLe joueur %player% possède %tokens% tokens."
+tokenSet: "&7[&6Token&cSystem&7] &aVous avez défini les tokens de %player% à %tokens%."
+
+reload: "&7[&6Token&cSystem&7] &aPlugin reloaded"

@@ -1,0 +1,9 @@
+name: TokenSystem
+version: '${project.version}'
+main: me.niz.tokensystem.TokenSystem
+api-version: 1.18
+authors: [ Jb ]
+softdepend: [ PlaceholderAPI ]
+commands:
+  tokensystem:
+    description: Main
